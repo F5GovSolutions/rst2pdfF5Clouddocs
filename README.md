@@ -11,6 +11,5 @@ Ensure python3 and pip3 (python package installer) are installed
 
 **apt-get update
 **apt-get upgrade
-
-
+**
 **pip3 install rst2pdf[aafiguresupport,mathsupport,plantumlsupport,rawhtmlsupport,sphinx,svgsupport]****
