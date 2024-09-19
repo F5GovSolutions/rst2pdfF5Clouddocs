@@ -9,12 +9,10 @@ Commands to be executed in bold.
 
 Ensure python3 and pip3 (python package installer) are installed
 
-**sudoapt-get update
-**sudo apt-get upgrade
-sudo apt-get install
-sudo apt-get install python3
-sudo apt-get install python3-pip
-sudo apt-get install git
+**sudo apt-get update
+**sudo apt-get -y upgrade
+sudo apt-get -y install python3 python3-pip
+sudo apt-get -y install git
 
 
 
@@ -26,6 +24,9 @@ pip3 install sphinxcontrib-nwdiag
 https://clouddocs.f5.com/training/community/rseries-training/html/#planning-for-rseries-guide
 Find the appropriate repo here
 https://github.com/f5devcentral/
+
+For instance the rSeries training above is located here
+https://github.com/f5devcentral/f5-rseries-training
 
 git clone https://github.com/f5devcentral/f5-rseries-training
 sphinx-build -b pdf f5-rseries-training/docs/  build/pdf
