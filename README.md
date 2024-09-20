@@ -163,6 +163,8 @@ pdf_smartquotes = 0
 ######
 
 
+Lastly comment out the line
+#html4_writer = True
 
 
 sphinx-build -b pdf f5-rseries-training/docs/  build/pdf
