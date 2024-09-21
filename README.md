@@ -2,21 +2,25 @@
 
 This repo is just this doc detailing how to take F5 Clouddocs guides and turn them into a pdf for situations such as closed networks
 
-This guide details instructions for Ubuntu, it should be similar to other distros if not very close for apt based distros
+This guide details instructions for Ubuntu (22.04 and 24.04), it should be similar to other distros if not very close for apt based distros.
+Make sure you have at least 2GB of RAM.
 
 This will install the rst2pdf command, this requires internet access.
 Commands to be executed in bold.
 
 Ensure python3 and pip3 (python package installer) are installed
 
-**sudo apt-get update
-**sudo apt-get -y upgrade
+sudo apt-get update
+sudo apt-get -y upgrade
 sudo apt-get -y install python3 python3-pip
 sudo apt-get -y install git
 
 
 
-**sudo pip3 install rst2pdf[aafiguresupport,mathsupport,plantumlsupport,rawhtmlsupport,sphinx,svgsupport]****
+sudo pip3 install rst2pdf[aafiguresupport,mathsupport,plantumlsupport,rawhtmlsupport,sphinx,svgsupport]
+
+pip3 install rst2pdf
+pip3 install sphinxcontrib
 pip3 install f5_sphinx_theme
 pip3 install sphinxcontrib-blockdiag
 pip3 install sphinx-copybutton
