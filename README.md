@@ -172,3 +172,5 @@ Lastly comment out the line
 
 
 sphinx-build -b pdf f5-rseries-training/docs/  build/pdf
+
+Be patient as this can take some time. On a 2 vcpu 2GB RAM vm, it took 20mins to create a 1k page doc.
